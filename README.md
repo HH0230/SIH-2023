@@ -33,6 +33,12 @@ Overview:
 
 ➢ This comprehensive approach ensures not only enhanced safety but also augments security during nighttime operations. Prakash Bharat stands poised to be a transformative force, dedicated to illuminating nations and uplifting local economies through innovation and inclusivity.
 
+Flowchart:
+
+<img width="869" alt="Screenshot 2023-09-24 at 8 08 47 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/4981261a-0d07-4a95-8bf5-141ccbd6acb4">
+
+Snapshots:
+
 <img width="1440" alt="Screenshot 2023-09-24 at 8 01 27 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/12eee500-774d-4ba1-afb7-928c3646ad0b">
 
 <img width="1440" alt="Screenshot 2023-09-24 at 8 01 45 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/deba9062-18e6-4cc3-9952-14979f7d5e43">
