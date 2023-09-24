@@ -12,17 +12,25 @@ Prakash Bharat is an innovative web application meticulously crafted to revoluti
 Use Cases:
 
 ➢ Users can effortlessly capture photos of the faulty street light and provide a detailed description, specifying issues such as low or non-existent illumination.
+
 ➢ Our advanced GPS/GIS integration leverages location data to efficiently connect users with nearby certified electricians, ensuring swift and precise repairs.
+
 ➢ Powered by a sophisticated automation system, Prakash Bharat seamlessly tracks the user's location, facilitating the expedient allocation of the nearest qualified electrician to address the reported issue.
+
 ➢ Each reported incident is assigned a unique identification number, enabling seamless tracking and ensuring a comprehensive record of all complaints.
+
 ➢ In the event that a specific street light garners more than three complaints within a 6-8 month timeframe, it is promptly escalated to our team of chief engineers for evaluation and replacement.
 
 Overview:
 
 ➢ Prakash Bharat stands as a beacon of light, offering a multilingual platform designed with utmost user-friendliness across diverse languages.
+
 ➢ Our mission is to foster economic stability by providing gainful employment opportunities to local electricians who may have previously experienced uncertain income streams. In doing so, we contribute significantly to the growth of the micro sector.
+
 ➢ Leveraging cutting-edge advancements in Artificial Intelligence and Machine Learning, Prakash Bharat employs a path optimization technique that not only conserves fuel but also promotes energy efficiency. This forward-thinking approach aligns with our commitment to sustainable practices.
+
 ➢ Once an electrician is allocated to a specific area, Prakash Bharat introduces an AI-powered 24/7 chatbot for seamless assistance. Concurrently, real-time tracking of the electricians 's location further enhances operational transparency and responsiveness.
+
 ➢ This comprehensive approach ensures not only enhanced safety but also augments security during nighttime operations. Prakash Bharat stands poised to be a transformative force, dedicated to illuminating nations and uplifting local economies through innovation and inclusivity.
 
 <img width="1440" alt="Screenshot 2023-09-24 at 8 01 27 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/12eee500-774d-4ba1-afb7-928c3646ad0b">
