@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2dbd8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #f08678;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 800px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: stretch; /* Make items stretch to equal height */
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .service h2 {
+            color: #333;
+        }
+
+        .service p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .service img {
+            width: 250px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .user-login, .electrician-login {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Services</h1>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="service user-login">
+            <img src="User Login.png" alt="User Login" style="height: 190px;">
+            <a href="#" style="font-size: 25px; color: black;"><b>User Login</b></a>
+            <p>Welcome to our Prakash Bharat! <br> We're here to help you ensure well-lit streets. Log in to your account to report streetlight issues and contribute to making your neighborhood well-lit.</p>
+            <a href="./index2.html">Login</a>
+        </div>
+        <div class="service electrician-login">
+            <img src="electrician login2.png" alt="Electrician Login" style="height: 190px;">
+            <a href="#" style="font-size: 25px; color: black;"><b>Electrician Login</b></a>
+            <p>Welcome, skilled electricians! <br> We're your gateway to a world of streetlight repair opportunities. Log in to your account and access a range of opportunities.</p>
+            <a href="./index2.html">Login</a>
+        </div>
+    </div>
+</body>
+</html>
