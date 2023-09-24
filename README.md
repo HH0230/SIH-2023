@@ -18,10 +18,19 @@ Use Cases:
 ➢ In the event that a specific street light garners more than three complaints within a 6-8 month timeframe, it is promptly escalated to our team of chief engineers for evaluation and replacement.
 
 Overview:
+
 ➢ Prakash Bharat stands as a beacon of light, offering a multilingual platform designed with utmost user-friendliness across diverse languages.
 ➢ Our mission is to foster economic stability by providing gainful employment opportunities to local electricians who may have previously experienced uncertain income streams. In doing so, we contribute significantly to the growth of the micro sector.
 ➢ Leveraging cutting-edge advancements in Artificial Intelligence and Machine Learning, Prakash Bharat employs a path optimization technique that not only conserves fuel but also promotes energy efficiency. This forward-thinking approach aligns with our commitment to sustainable practices.
 ➢ Once an electrician is allocated to a specific area, Prakash Bharat introduces an AI-powered 24/7 chatbot for seamless assistance. Concurrently, real-time tracking of the electricians 's location further enhances operational transparency and responsiveness.
 ➢ This comprehensive approach ensures not only enhanced safety but also augments security during nighttime operations. Prakash Bharat stands poised to be a transformative force, dedicated to illuminating nations and uplifting local economies through innovation and inclusivity.
-<img width="1440" alt="Screenshot 2023-09-24 at 8 00 12 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/3dd9247f-75bc-4091-a9ec-307ef0a9c27f">
 
+<img width="1440" alt="Screenshot 2023-09-24 at 8 01 27 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/12eee500-774d-4ba1-afb7-928c3646ad0b">
+
+<img width="1440" alt="Screenshot 2023-09-24 at 8 01 45 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/deba9062-18e6-4cc3-9952-14979f7d5e43">
+
+<img width="1440" alt="Screenshot 2023-09-24 at 8 02 57 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/cd63a9af-60b6-493e-90f0-f6f19b72f5e3">
+
+<img width="1440" alt="Screenshot 2023-09-24 at 8 03 56 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/ade7ff23-443c-4415-9198-4cd550772c92">
+
+<img width="1440" alt="Screenshot 2023-09-24 at 8 03 30 PM" src="https://github.com/HH0230/SIH-2023/assets/123818186/dde1c8f0-233b-411a-88f8-deb302e389e4">
