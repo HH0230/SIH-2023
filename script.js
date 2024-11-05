@@ -1,36 +1,40 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const loginForm = document.getElementById("login-form");
-    const registerForm = document.getElementById("register-form");
+const video = document.getElementById('videoElement');
+const popup = document.getElementById('popup');
+const closePopup = document.getElementById('closePopup');
 
-    if (loginForm) {
-        loginForm.addEventListener("submit", function (e) {
-            e.preventDefault();
-            const username = document.getElementById("username").value;
-            const password = document.getElementById("password").value;
-           
-            // Perform login logic here (e.g., check credentials)
-            console.log("Login submitted:", username, password);
-        });
-    }
+// Access the webcam
+navigator.mediaDevices.getUserMedia({ video: true })
+    .then(stream => {
+        video.srcObject = stream;
+        video.play();
+    })
+    .catch(error => {
+        console.error("Error accessing the camera: ", error);
+    });
 
-    if (registerForm) {
-        registerForm.addEventListener("submit", function (e) {
-            e.preventDefault();
-            const firstName = document.getElementById("first-name").value;
-            const lastName = document.getElementById("last-name").value;
-            const email = document.getElementById("email").value;
-            const newUsername = document.getElementById("new-username").value;
-            const newPassword = document.getElementById("new-password").value;
-            const confirmPassword = document.getElementById("confirm-password").value;
-
-            // Add client-side validation here
-            if (newPassword !== confirmPassword) {
-                alert("Passwords do not match. Please try again.");
-                return;
-            }
-
-            // Perform registration logic here (e.g., create a new user)
-            console.log("Registration submitted:", firstName, lastName, email, newUsername, newPassword);
-        });
-    }
+// Load the handpose model
+let model;
+handpose.load().then(loadedModel => {
+    model = loadedModel;
+    detectHands();
 });
+
+// Function to detect hands and show popup
+async function detectHands() {
+    const predictions = await model.estimateHands(video);
+    if (predictions.length > 0) {
+        showPopup();  // Show popup whenever a hand is detected
+    }
+    requestAnimationFrame(detectHands);
+}
+
+// Show the warning popup
+function showPopup() {
+    popup.classList.remove('hidden');
+}
+
+// Close the popup
+closePopup.addEventListener('click', () => {
+    popup.classList.add('hidden');
+});
+
