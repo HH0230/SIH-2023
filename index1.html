@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+    <nav>
+        <div class='logo'>
+            <p>Prakash<b>Bharat</b></p>
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./complaint.html">Complaint</a></li>
+        </ul>
+        <button id="btn3">Sign up</button>
+    </nav>
+    </header>
+    <div class="content">
+        <h1>Prakash Bharat </h1>
+        <p class="partner">
+            Your partner in effecient street light management
+        </p>
+        <p>
+            Centralised monitoring system that streamlines street light
+            fault detection and location. Our innovative platform ensures optimal
+            lightening for safe and secure communities.
+        </p>
+        <div class="buttons">
+            <button id="btn">User Login </button>
+            <button id="btn2">Electrician Login</button>
+            <script>
+              function goToAnotherPage() 
+              {
+                  var url = 'index2.html';
+                  window.location.href = url;
+              }
+              function goRegister()
+              {
+                var url = 'register.html';
+                window.location.href = url;
+              }
+              document.getElementById('btn').addEventListener('click', goToAnotherPage);
+              document.getElementById('btn2').addEventListener('click', goToAnotherPage);
+              document.getElementById('btn3').addEventListener('click', goRegister);
+          </script>
+        </div>
+    </div>
+  </body>
+</html>
